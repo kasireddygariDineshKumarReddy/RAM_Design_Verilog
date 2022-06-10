@@ -3,7 +3,7 @@ module ram_singleport_tb;
 	reg clk;
 	reg read_en;
 	reg write_en;
-	reg [7:0] addr;
+	reg [3:0] addr;
 	wire [7:0] data;
 	reg [7:0]tmp_data;
 	integer i;
