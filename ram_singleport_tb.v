@@ -49,7 +49,7 @@ module ram_singleport_tb;
 				begin 
 				   @(negedge clk)
 					begin
-				   addr<=i;
+				        addr<=i;
 					tmp_data<=i;
 					end
 				end
@@ -59,7 +59,7 @@ module ram_singleport_tb;
 			  begin
 			    @(negedge clk)
 			    addr<=i;
-				end
+		          end
 			#40;
 			$finish;
 		end	  
