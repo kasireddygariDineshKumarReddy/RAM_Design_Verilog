@@ -3,7 +3,7 @@ module ram_singleport(
     input clk,
     input read_en,
     input write_en,
-    input [7:0]addr,
+    input [3:0]addr,
     inout [7:0]data
     );
   reg [7:0] memory[15:0];
